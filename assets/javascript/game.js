@@ -98,6 +98,8 @@ function reinitialize() {
     incorrectGuesses = [];
     
     lives = 11;
+    
+    currentPhrase.splice(0, 1, chosePhrase());
 
     inputs();
     
@@ -124,6 +126,7 @@ document.onkeyup = function(e) {
     if (currentPhrase[0].toLowerCase().indexOf(guess) > -1) {
 
         allGuesses.push(guess);
+
 
         for (i = 0; i < currentPhrase[0].length; i++) {
 
