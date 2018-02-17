@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: rgb(13, 231, 5);
+    font-family: 'Press Start 2P', cursive;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 90%;
+    padding: 1em;
+    border: .5em solid;
+    overflow: auto;
+}
+
+h1 {
+    
+    text-align: center;
+    padding-bottom: .5em;
+    font-size: 2.75em;
+}
+
+#intro {
+    border-top: .5em dashed;
+    border-bottom: .5em dashed;
+    /* padding: .25em 0 .25em 0; */
+}
+
+#greeting {
+    text-align: center;
+    font-size: 2em;
+}
+
+#prompt {
+    text-align: center;
+}
+#gamePlay {
+    margin: 0 auto;
+    float: left;
+    padding: 1em;
+    border: .5em solid;
+    overflow: auto;
+    width: 30%;
+    margin-bottom: 3em;
+}
+
+#spaces {
+    font-size: 2.5em;
+}
+
+#gameInfo {
+    margin: 0 auto;
+    float: right;
+    padding: 1em;
+    border: .5em solid;
+    overflow: auto;
+    width: 60%;
+}
+
